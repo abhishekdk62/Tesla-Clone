@@ -1,0 +1,666 @@
+body {
+  font-family: "Roboto", sans-serif; /* Use Roboto font */
+  width: 100%;
+}
+/* /...........header......../ */
+.header-body {
+  background-image: url(/images/tesla-1.avif);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header .logo {
+  width: 110px;
+  height: 13px;
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.header .logo img {
+  width: 110px;
+  height: 13px;
+  filter: invert(1);
+}
+
+.header .menu ul {
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+}
+.header .menu li{
+    border-radius: 3px;
+    padding: 4px 15px;
+    transition: background-color 0.8s ease;
+    cursor: pointer;
+}
+.header .menu li:hover
+{
+    background-color: rgba(17, 17, 17, 0.1);
+
+}
+
+.header .social {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.header .social i{
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.header .social i:hover{
+    background-color: rgba(81, 81, 83,0.9);
+
+}
+
+/* ...........header-order......... */
+
+.header-order {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding: 60px;
+}
+
+.header-order h1 {
+  color: white;
+  font-size: 60px;
+}
+.header-order .buttons {
+  display: flex;
+  gap: 30px;
+}
+.header-order button {
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  padding: 12px 80px;
+  color: rgb(81, 78, 78);
+}
+
+/* .........section2........... */
+
+.section-2 {
+  background-image: url(/images/tesla-2.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-2 .model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.section-2 .model h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.section-2 .model h2 {
+  font-size: 40px;
+  margin: 0;
+}
+.section-2 .model hr {
+  height: 2px;
+  margin: 0;
+
+  width: 100%;
+  background-color: white;
+  border: none;
+}
+
+.section-2 .model p {
+  font-weight: 400;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.section-2 .buttons-3 {
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.section-2 .buttons-3 button {
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  padding: 12px 80px;
+  color: rgb(81, 78, 78);
+}
+.section-2 .buttons-3 .one {
+  background-color: rgb(34, 122, 245);
+  color: white;
+}
+
+/* ..........section-3........... */
+
+.section-3 {
+  background-image: url(/images/tesla-3.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-3 .model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.section-3 .model h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.section-3 .model h2 {
+  font-size: 40px;
+  margin: 0;
+}
+.section-3 .model hr {
+  height: 2px;
+  margin: 0;
+
+  width: 100%;
+  background-color: white;
+  border: none;
+}
+
+.section-3 .model p {
+  font-weight: 400;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.section-3 .buttons-3 {
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.section-3 .buttons-3 button {
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  padding: 12px 80px;
+  color: rgb(81, 78, 78);
+}
+.section-3 .buttons-3 .one {
+  background-color: rgb(34, 122, 245);
+  color: white;
+}
+
+/* ............section-4........... */
+
+.section-4 {
+  background-image: url(/images/tesla-4.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-4 .model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+  overflow: hidden;
+  width: 20%;
+}
+
+.section-4 .model h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.section-4 .model h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.section-4 .model p {
+  font-weight: 600;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.section-4 .model a {
+  color: white;
+}
+
+.section-4 .buttons-3 {
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.section-4 .buttons-3 button {
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  padding: 12px 80px;
+  color: rgb(81, 78, 78);
+}
+.section-4 .buttons-3 .one {
+  background-color: rgb(34, 122, 245);
+  color: white;
+}
+
+/* ........section-5.......... */
+
+.section-5 {
+  background-image: url(/images/tesla-5.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-5 .model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+  overflow: hidden;
+  width: 20%;
+}
+
+.section-5 .model h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.section-5 .model h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.section-5 .model p {
+  font-weight: 600;
+  margin: 0;
+  padding-top: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+.section-5 .model a {
+  color: white;
+}
+
+.section-5 .buttons-3 {
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.section-5 .buttons-3 button {
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  padding: 12px 80px;
+  color: rgb(81, 78, 78);
+}
+.section-5 .buttons-3 .one {
+  background-color: rgb(34, 122, 245);
+  color: white;
+}
+
+/* .............section-6.............. */
+
+.section-6 {
+  background-image: url(/images/tesla-6.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.section-6 .buttons-3 {
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.section-6 .buttons-3 button {
+  font-weight: 550;
+  border: none;
+  padding: 14px 90px;
+  color: rgb(167, 164, 164);
+  background-color: rgba(19, 18, 18, 0.9);
+}
+
+/* ..........section-7.......... */
+
+.section-7 {
+  background-image: url(/images/tesla-7.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-7 .model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+  overflow: hidden;
+  width: 40%;
+}
+
+.section-7 .model h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.section-7 .model h2 {
+  font-size: 35px;
+  margin: 0;
+}
+
+.section-7 .model a {
+  color: white;
+}
+
+.section-7 .buttons-3 {
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.section-7 .buttons-3 button {
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  padding: 12px 80px;
+  color: rgb(81, 78, 78);
+}
+.section-7 .buttons-3 .one {
+  background-color: rgb(34, 122, 245);
+  color: white;
+}
+
+/* ................section-8................. */
+
+.section-8 {
+  background-image: url(/images/tesla-8.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-8 .model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+  overflow: hidden;
+  width: 40%;
+}
+
+.section-8 .model h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.section-8 .model h2 {
+  font-size: 35px;
+  margin: 0;
+}
+
+.section-8 .buttons-3 {
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.section-8 .buttons-3 button {
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  padding: 12px 80px;
+  color: rgb(81, 78, 78);
+}
+.section-8 .buttons-3 .one {
+  background-color: rgb(34, 122, 245);
+  color: white;
+}
+
+/* .......................section-9................. */
+
+.section-9 {
+  background-image: url(/images/tesla-9.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-9 .model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+  overflow: hidden;
+  width: 40%;
+}
+
+.section-9 .model h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.section-9 .buttons-3 {
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.section-9 .buttons-3 button {
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  padding: 12px 80px;
+  color: rgb(81, 78, 78);
+}
+.section-9 .buttons-3 .one {
+  background-color: rgb(34, 122, 245);
+  color: white;
+}
+
+/* ..............section-10............. */
+
+.section-10 {
+  background-image: url(/images/tesla-10.avif);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-10 .model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+  overflow: hidden;
+  width: 40%;
+}
+
+.section-10 .model h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.section-10 .buttons-3 {
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.section-10 .buttons-3 button {
+  border-radius: 5px;
+  font-weight: 550;
+  border: none;
+  padding: 12px 80px;
+  color: rgb(81, 78, 78);
+}
+.section-10 .buttons-3 .one {
+  background-color: rgb(34, 122, 245);
+  color: white;
+}
+
+/* .................section-11............. */
+
+.section-11 {
+  position: relative;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: scale(
+    1.2
+  ); /* Zoom in by 10%, adjust the value for more or less zoom */
+
+  height: 100%;
+  object-fit: cover; /* This makes sure the video covers the entire div */
+  z-index: -1; /* This ensures the video stays in the background */
+}
+
+.section-11 .content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+
+  width: 20%;
+  color: white;
+}
+
+.section-11 .content button {
+  padding: 10px;
+  color: rgb(82, 79, 79);
+  border-radius: 3px;
+  border: none;
+  font-weight: 600;
+  width: 190px;
+}
+
+/* .....................footer................ */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+    font-size: 12px;
+    color: rgb(76, 74, 74);
+    text-align: center;
+    line-height: 19px;
+}
+
+
+.footer-content{
+    padding-top: 24px;
+    width: 40%;
+}
+.footer-content-1{
+   
+    width: 100%;
+}
+.footer-content-2{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-content-2 ul{
+    font-size: 12px;
+ list-style: none;
+ font-weight: 700;
+ color: rgb(76, 74, 74);
+ display: flex;
+ padding: 0px 30px;
+ padding-top: 20px;
+}
+.footer-content-2 li{
+    padding: 0 5px;
+
+}
+
+.footer-content-1 a
+{
+    color: rgb(76, 74, 74);
+    transition: color 0.3s ease;
+    transition: font-weight 0.3s ease;
+
+    
+}
+.footer-content-1 a:hover
+{
+    color: black;
+font-weight:300;
+}
+
+    
