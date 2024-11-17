@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; /* Ensures padding and border are included in width */
 }
+button{
+  cursor: pointer;
+}
 
 body {
   font-family: "Roboto", sans-serif; /* Use Roboto font */
