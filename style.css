@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
 body {
   font-family: "Roboto", sans-serif; /* Use Roboto font */
   overflow-x: hidden; /* Disable horizontal scrolling */
