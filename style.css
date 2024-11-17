@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif; /* Use Roboto font */
-  width: 100%;
+  overflow-x: hidden; /* Disable horizontal scrolling */
 }
 /* /...........header......../ */
 .header-body {
