@@ -13,7 +13,7 @@ body {
 }
 /* /...........header......../ */
 .header-body {
-  background-image: url(.S/images/tesla-1.avif);
+  background-image: url(./images/tesla-1.avif);
   width: 100%;
   height: 100vh;
   background-size: cover;
